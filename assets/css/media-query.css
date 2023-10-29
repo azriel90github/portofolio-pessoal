@@ -34,6 +34,7 @@
 
     aside  {
         width: 100%;
+        height: 100vh;
         background-image: none;
     }
 
@@ -45,8 +46,13 @@
     }
     
     .sobre-mim {
-        font-size: 20px;
+        font-size: 18px;
         padding-bottom: 20px;
+    }
+
+    .sobre-mim p {
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     
@@ -65,7 +71,7 @@
     }
     
     .perfil {
-        width: 250px;
+        width: 200px;
         border-radius: 50%;
         padding: 20px;
     
@@ -108,12 +114,8 @@
     .jornada {
         display: grid;
         grid-template-columns: 350px;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         height:100vh;
-        background-color: black;
-        gap: 20px;
     }
 
     .portofolio-container h2 {
@@ -123,10 +125,15 @@
     }
 
     .portofolio-container {
+       /* background-image: url(../img/1149603-01.jpg);*/
+        background-size: cover;
         width: 100%;
         height: 100vh;
-        background-image: url(../img/1149603-01.jpg);
-        background-size: cover;
+    }
+
+    .container-portofolio {
+        width: 100%;
+        height: 170vh;
     }
 
     .portofolio {
@@ -134,8 +141,6 @@
         grid-template-columns: 350px;
         justify-content: center;
         gap: 20px;
-        width: 100%;
-        height: 100vh;
         color: white;
     }
 
@@ -157,7 +162,6 @@
 @media only screen and (min-width: 600px) {
 
     .itens-menu {
-        display: none;
         width: 100%;
     }
 
@@ -170,7 +174,6 @@
 @media only screen and (min-width: 768px) {
 
     .itens-menu {
-        display: none;
         width: 100%;
     }
 
@@ -205,7 +208,6 @@
 @media only screen and (max-width: 576px) {
 
     .itens-menu {
-        display: none;
         width: 100%;
     }
 
@@ -246,8 +248,6 @@
 /*Ipade Mini----------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-
 
 
 }

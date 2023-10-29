@@ -30,7 +30,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: var(--cor07);
+    background-color: #14212b;
     color: white;
     display: flex;
     justify-content: space-around; 
@@ -66,19 +66,19 @@ header {
 }
 
 .tema a {
-    color: white;
+    color: #71C0F5;
     font-size: 25px;
 }
 
 /*conteudo-principal------------------------------*/
 aside {
-    background-image: url(../img/1149603-01.jpg);
+    /*background-image: url(../img/1149603-01.jpg);*/
     background-position: top center;
     /*background-size: cover;*/
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #192b36;
+    background-color: #0c141a;
     color: white;
     height: 100vh;
 }
@@ -104,6 +104,7 @@ aside {
 }
 
 .sobre-mim span.nome {
+    color: #71C0F5;
     font-size: 60px;
 }
 
@@ -129,7 +130,7 @@ aside {
 }
 
 .servicos h1 {
-    color: var(--cor04);
+    color: #60A4D1;
     padding: 30px;
 }
 
@@ -166,7 +167,8 @@ aside {
     border-bottom: 2px solid var(--cor04);
     border-radius: 8px 0px 0px 0px;
     text-align: center;
-    background-color: #284457;
+    /*background-color: #284457;*/
+    background-color: #0c141a;
 }
 
 .caixa-servicos p {
@@ -203,7 +205,7 @@ aside {
     display: flex;
     margin: auto;
     margin-bottom: 20px;
-    width: 300px;
+    /*width: 300px;*/
     border-radius: 8px;
     border: none;
     color: #71C0F5;
@@ -217,7 +219,8 @@ aside {
     align-items: center;
     color: #71C0F5;
     border-bottom: 2px solid var(--cor04);
-    background-color: var(--cor05);
+    /*background-color: var(--cor05);*/
+    background: #0c141a;
     border-radius: 8px 8px 0px 0px;
     padding: 10px;
 
@@ -238,7 +241,7 @@ aside {
 
 
 .portofolio-container {
-    background-image: url(../img/1149603-01.jpg);
+    /*background-image: url(../img/1149603-01.jpg);*/
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -283,7 +286,9 @@ aside {
     border-radius: 8px 8px 0px 0px;
     text-align: center;
     padding: 10px;
-    background-color: #3B647F;
+    /*background-color: #284457;*/
+    background: #0c141a;
+    border-bottom: 2px solid var(--cor04);
 }
 .caixa-portofolio h3 a i {
     font-size: 30px;
@@ -303,7 +308,7 @@ aside {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
+    height: 40vh;
     color: #60A4D1;
 }
 
@@ -330,7 +335,7 @@ aside {
 }
 
 .send-footer {
-    background-color: #192b36;
+    background-color: #0c141a;
     border: 2px solid var(--cor04);
     color: #60A4D1;
     height: 30px;
@@ -348,7 +353,7 @@ aside {
     background-color: #284457;
     border: 2px solid var(--cor04);
     color: white;
-    width: 300px;
+    width: 200px;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -374,10 +379,9 @@ aside {
 
 /*rodape------------------------------------------*/
 footer { 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 15px;
-    background: #192b36;
+    /*background: #0c141a;*/
+
 }
 
 footer a {
@@ -386,20 +390,6 @@ footer a {
     font-weight: 500;
 }
 
-.logo-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-footer {
-    display: block;
-    margin: auto;
-}
-
-.itens-footer {
-    list-style: none;
-}
 
 .social-footer {
     display: flex;
@@ -409,6 +399,12 @@ footer a {
 
 .social-footer p {
     color: white;
+}
+
+.container-footer h2 {
+    text-align: center;
+    padding: 20px;
+    color: #3B647F;
 }
 
 .social-footer a i {
@@ -424,7 +420,7 @@ footer a {
 .rodape {
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #0c141a;
 }
 .rodape a {
     color: white;
