@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        background-color: var(--cor07);
+        color: white;
+        display: flex;
+        justify-content: space-around; 
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        /*border-bottom: 2px solid #60A4D1;*/
+    }
+
+    .tema {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        font-size: 22px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .itens-menu {
+        display: none;
+        width: 100%;
+    }
+
+    aside  {
+        width: 100%;
+        background-image: none;
+    }
+
+    .sobre {
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .sobre-mim {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .funcao {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    
+    }
+    
+    .sobre-mim span.nome {
+        width: 100%;
+        font-size: 28px;
+    }
+    
+    .perfil {
+        width: 250px;
+        border-radius: 50%;
+        padding: 20px;
+    
+    }
+
+    .caixa-servicos {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 2px solid var(--cor04);
+        width: 80%;
+        height: 50vh;
+        border-radius: 8px;
+        margin: 10px;
+        color: #60A4D1;
+        background-color: black;
+    
+    }
+
+    .servicos h1 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        color: var(--cor04);
+        padding: 20px;
+    }
+
+
+    .caixa-servicos button {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border: none;
+        color: #71C0F5;
+        background-color: #192b36;
+        cursor: pointer;
+    }
+    /*jornada--------------------------------------*/
+    .jornada {
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:100vh;
+        background-color: black;
+        gap: 20px;
+    }
+
+    .portofolio-container h2 {
+        color: #60A4D1;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .portofolio-container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/1149603-01.jpg);
+        background-size: cover;
+    }
+
+    .portofolio {
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+        height: 100vh;
+        color: white;
+    }
+
+    .contacto {
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        color: #60A4D1;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .itens-menu {
+        display: none;
+        width: 100%;
+    }
+
+    aside  {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .itens-menu {
+        display: none;
+        width: 100%;
+    }
+
+    aside  {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+/*Largura Minima-----------------------------------------*/
+
+@media (min-width: 360px) and (max-width: 640px) {
+
+
+
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media only screen and (max-width: 576px) {
+
+    .itens-menu {
+        display: none;
+        width: 100%;
+    }
+
+    aside  {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    
+
+}
+
+/*Iphone 6------------------------------------------*/
+
+@media (min-width: 375px) and (max-width: 667px) {
+
+    
+
+}
+
+/*Iphone 5------------------------------------------*/
+
+@media (min-width: 320px) and (max-width: 568px) {
+
+
+}
+
+/*Surface pro 7-------------------------------------*/
+
+@media (min-width: 912px) and (max-width: 1368px) {
+    
+}
+
+/*Ipade Mini----------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+
+}

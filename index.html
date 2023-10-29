@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofólio Pessoal</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <!--cabeçalho------------------------------>
-    <header>
+    <header id="header">
         <div class="logo">Port.azriel@armando</div>
         <nav class="menu">
             <ul class="itens-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#jornada">Jornada</a></li>
-                <li><a href="#">Portofólio</a></li>
+                <li><a href="#portofolio">Portofólio</a></li>
                 <li><a href="#contacto">Contactos</a></li>
             </ul>
         </nav>
         <div class="tema">
             <a href="#"><i class='bx bxs-droplet-half'></i></a>
         </div>
+        <div class="menu-hamburguer">
+            <i class='bx bx-menu-alt-right' ></i>
+        </div>
     </header>
     <!--conteudo-principal---------------------->
-    <main>
         <aside>
             <div class="sobre">
                 <div class="foto-perfil"><img class="perfil" src="assets/img/foto-perfil.jpeg" alt=""></div>
@@ -106,26 +109,40 @@
         </div>
 
         <!--portofolio--------------------------->
-        <div class="container-portofolio">
+        <div class="portofolio-container">
             <h2>Projectos Recentes</h2>
-            <div class="portofolio">
-                <div class="caixa-portofolio">
-                    <h3>Biblioteca Virtual</h3>
-                </div>
-                <div class="caixa-portofolio">
-                    <h3>Biblioteca Virtual</h3>
-                </div>
-                <div class="caixa-portofolio">
-                    <h3>Biblioteca Virtual</h3>
-                </div>
-                <div class="caixa-portofolio">
-                    <h3>Biblioteca Virtual</h3>
-                </div>
-                <div class="caixa-portofolio">
-                    <h3>Biblioteca Virtual</h3>
-                </div>
-                <div class="caixa-portofolio">
-                    <h3>Biblioteca Virtual</h3>
+            <div class="container-portofolio" id="portofolio">
+                <div class="portofolio">
+                    <div class="caixa-portofolio">
+                        <h3>Biblioteca Virtual
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </h3>
+                    </div>
+                    <div class="caixa-portofolio">
+                        <h3>Biblioteca Virtual
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </h3>
+                    </div>
+                    <div class="caixa-portofolio">
+                        <h3>Biblioteca Virtual
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </h3>
+                    </div>
+                    <div class="caixa-portofolio">
+                        <h3>Biblioteca Virtual
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </h3>
+                    </div>
+                    <div class="caixa-portofolio">
+                        <h3>Biblioteca Virtual
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </h3>
+                    </div>
+                    <div class="caixa-portofolio">
+                        <h3>Biblioteca Virtual
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,19 +162,34 @@
                 <input class="send-footer" type="text" name="" id=""><br>
                 <input class="send-botao" type="submit" value="Enviar" class="cadastrar"> 
             </form>
-            <h2>Social</h2>
-            <div class="social">
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-            </div>
         </div>
-    </main>
     <!--rodape---------------------------------->
     <footer>
-        <p><a href="#">© Copyright2023@PortofólioPessoal</a></p>
-        <p><a href="#">PortofólioPessoal@azrielarmando</a></p>
+        <div class="container-footer">
+             <!--
+            <div class="nav-footer">
+                <ul class="itens-footer">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#jornada">Jornada</a></li>
+                    <li><a href="#porofolio">Portofólio</a></li>
+                    <li><a href="#contacto">Contactos</a></li>
+                </ul>
+            </div>
+                   -->
+            <p>
+                <div class="social-footer">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                </div>
+            </p>
+        </div>
+        
     </footer>
+    <p class="rodape">
+        <a href="#">© Copyright2023@PortofólioPessoal</a>
+    </p>
 </body>
 </html> 
