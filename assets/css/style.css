@@ -280,6 +280,13 @@ aside {
 
 }
 
+.projecto01 {
+    background-image: url(../img/relatório-power-bi.png);
+}
+.projecto02 {
+    background-image: url(../img/projecto-biblioteca.png);
+}
+
 .caixa-portofolio h3 {
     display: flex;
     justify-content: space-between;
