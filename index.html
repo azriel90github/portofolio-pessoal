@@ -31,6 +31,9 @@
             <i class='bx bx-menu-alt-right' ></i>
         </div>
         -->
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
     </header>
     <!--conteudo-principal---------------------->
         <aside>
@@ -184,4 +187,16 @@
         <a href="#">© Copyright2023@PortofólioPessoal</a>
     </p>
 </body>
+    <!--Menu responsivo---------------------->
+<script>
+   
+    function myMenuFunction() {
+     var i = document.getElementById("navMenu");
+     if(i.className === "nav-menu") {
+         i.className += "responsive";
+     } else {
+         i.className = "nav-menu";
+     }
+    }
+ </script>
 </html> 
