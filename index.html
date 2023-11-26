@@ -10,31 +10,21 @@
 </head>
 <body>
     <!--cabeçalho------------------------------>
-    <header id="header">
-        <div class="logo">Port.azriel@armando</div>
-        <nav class="menu">
-            <ul class="itens-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#jornada">Jornada</a></li>
-                <li><a href="#portofolio">Portofólio</a></li>
-                <li><a href="#contacto">Contactos</a></li>
-            </ul>
-        </nav>
-        <!--
-        <div class="tema">
-            <a href="#"><i class='bx bxs-droplet-half'></i></a>
-        </div>
-        -->
-        <!--
-        <div class="menu-hamburguer">
-            <i class='bx bx-menu-alt-right' ></i>
-        </div>
-        -->
-        <div class="nav-menu-btn">
-            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
-        </div>
-    </header>
+    <!--
+        <div class="topnav">
+            <a href="#home" class="active">Portazriel@armando</a>
+
+            <div id="myLinks">
+              <a onclick="clicar()" href="#">Home</a>
+              <a onclick="clicar()" href="#servicos">Serviços</a>
+              <a onclick="clicar()" href="#">Portofólio</a>
+              <a onclick="clicar()" href="#">Contacto</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class='bx bx-menu'></i>
+            </a>
+          </div>
+          -->
     <!--conteudo-principal---------------------->
         <aside>
             <div class="sobre">
@@ -155,7 +145,7 @@
                 </div>
             </div>
         </div>
-
+        
         <!--contacto------------------------------------------------------------->
 
         <div class="contacto" id="contacto">
@@ -165,9 +155,21 @@
                 <input class="send-footer" type="email" name="" id="" placeholder="Email"><br>
                 <input class="send-footer" type="password" name="" id="" placeholder="Senha"><br>
                 <input class="send-footer" type="text" name="" id="" placeholder="Mensagem"><br>
-                <input class="send-botao" type="submit" value="Enviar" class="cadastrar"> 
+                <input class="send-botao" type="submit" value="Enviar" class="cadastrar" onclick="confirmar()"> 
             </form>
         </div>
+        <p id="confirmacao">
+            Confirmação...
+        </p>
+        <script>
+            function confirmar() {
+                var confirmacao = document.getElementById('confirmacao') 
+                var clicar = document.querySelector('input.send-botao')
+                
+                confirmacao.innerHTML = `Sua Mensagem foi enviada com sucesso`
+                //alert('Sua Mensagem Enviada com Sucesso!')
+            }
+        </script>
     <!--rodape---------------------------------->
     <footer>
         <div class="container-footer">
@@ -189,7 +191,7 @@
 </body>
     <!--Menu responsivo---------------------->
 <script>
-   
+   /*
     function myMenuFunction() {
      var i = document.getElementById("navMenu");
      if(i.className === "nav-menu") {
@@ -198,5 +200,18 @@
          i.className = "nav-menu";
      }
     }
+    */
+
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
+
  </script>
+
 </html> 
