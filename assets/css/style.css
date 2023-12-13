@@ -4,11 +4,16 @@
     font-family: Open Sans; 
     src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+
+@font-face {
+    font-family: Rethink;
+    src: url(../font/Rethink_Sans/RethinkSans-VariableFont_wght.ttf);
+}
 /*configuraçãoes-globais--------------------------------*/
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Open Sans;
+    font-family: Rethink;
 }
 
 body {
@@ -93,6 +98,7 @@ aside {
     font-size: 20px;
     padding-bottom: 20px;
 }
+
 
 
 .funcao {
