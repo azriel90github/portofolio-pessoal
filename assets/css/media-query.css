@@ -1,7 +1,11 @@
 @charset "UTF-8";
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-
+    .portofolio-container {
+        height: 200vh;
+    }
 
     .portofolio {
         display: grid;
@@ -11,7 +15,7 @@
     .contacto {
         padding-top: 700px;
         width: 100%;
-        height: 70vh;
+        
     }
     .send-footer {
         width: 320px;
@@ -19,76 +23,18 @@
 
 }
 
-
-
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-
 }
 
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-
 }
 
-@media only screen and (min-width: 992px) {
-
-}
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
-}
-
-
-
-/*Largura Minima-----------------------------------------*/
-
-@media (min-width: 360px) and (max-width: 640px) {
-
-
-
-
-}
-
-
-/*// Small devices (landscape phones, 576px and up)*/
-
-@media only screen and (max-width: 576px) {
-
-
-}
-
-
-@media only screen and (max-width: 768px) {
-
-    
-
-}
-
-/*Iphone 6------------------------------------------*/
-
-@media (min-width: 375px) and (max-width: 667px) {
-
-    
-
-}
-
-/*Iphone 5------------------------------------------*/
-
-@media (min-width: 320px) and (max-width: 568px) {
-
-
-}
-
-/*Surface pro 7-------------------------------------*/
-
-@media (min-width: 912px) and (max-width: 1368px) {
-    
-}
-
-/*Ipade Mini----------------------------------------*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
 
 }
